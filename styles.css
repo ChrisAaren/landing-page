@@ -76,3 +76,43 @@ ul {
     height: 200px;
     width: 500px;
 }
+
+.box-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+}
+
+/* Contains all the boxes */
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 8px 0px 48px 0px;
+    /* flex-wrap: wrap; */
+}
+
+/* Contains box and text */
+.container-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; 
+}
+
+.container-box .box-text {
+    width: 150px;
+    text-align: center;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3882F6;
+}
+
