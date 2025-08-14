@@ -154,7 +154,8 @@ ul {
 .call-action-container {
     background-color: #3882F6;
     border-radius: 8px;
-    margin: 100px 200px 100px 200px;
+    padding: 32px;
+    margin: 100px 350px 100px 350px;
 }
 
 .call-action {
@@ -179,7 +180,17 @@ h3 {
     border-radius: 8px;
     border-color: #F9FAF8;
     color: #F9FAF8;
-    margin-bottom: 12px;
     width: 100px;
     height: 25px;
+}
+
+/* Footer Section */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 24px;
 }
